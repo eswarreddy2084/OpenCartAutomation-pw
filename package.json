@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.6.0"
+  },
+  "scripts": {
+    "test:master":"playwright test --grep @master",
+    "LoginDataDriven":"playwright test --grep @dataDriven"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
