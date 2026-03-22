@@ -1,3 +1,3 @@
 npm install
-npm install -D allure-playwright
+npm install -D @playwright/test allure-playwright
 npx playwright install
