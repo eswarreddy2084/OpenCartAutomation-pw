@@ -12,7 +12,11 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: 5,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [["html"], ["allure-playwright"], ["list"]],
+  reporter: [
+    ["html"],
+    ["allure-playwright", { outputFolder: "allure-results" }],
+    ["list"],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     trace: "on-first-retry",
