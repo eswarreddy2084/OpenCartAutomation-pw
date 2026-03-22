@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":6,"buildName":"opencart_Local #6","buildUrl":"http://localhost:8080/job/opencart_Local/6/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/opencart_Local/6/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":8,"buildName":"opencart_Local #8","buildUrl":"http://localhost:8080/job/opencart_Local/8/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/opencart_Local/8/allure"}]

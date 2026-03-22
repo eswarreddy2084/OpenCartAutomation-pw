@@ -1,1 +1,1 @@
-[{"buildOrder":6,"reportUrl":"http://localhost:8080/job/opencart_Local/6/allure","reportName":"AllureReport","data":{"failed":0,"broken":0,"skipped":0,"passed":27,"unknown":0,"total":27}}]
+[{"buildOrder":8,"reportUrl":"http://localhost:8080/job/opencart_Local/8/allure","reportName":"AllureReport","data":{"failed":2,"broken":0,"skipped":0,"passed":25,"unknown":0,"total":27}}]
