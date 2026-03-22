@@ -1,0 +1,51 @@
+Exception occured while clicking my account link locator.click: Unexpected token "locator(" while parsing css selector "page.locator('span:has-text('My Account')')". Did you mean to CSS.escape it?
+Call log:
+  - waiting for page.locator('span:has-text('My Account')')
+
+    at HomePage.clickMyAccountLink (/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/HomePage.ts:26:32)
+    at /Users/eswarreddysangireddy/Documents/openCartAutomation/tests/registration.spec.ts:20:18 {
+  name: 'Error',
+  Symbol(step): {
+    location: {
+      file: '/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/HomePage.ts',
+      line: 26,
+      column: 32,
+      function: 'HomePage.clickMyAccountLink'
+    },
+    category: 'pw:api',
+    title: "Click page.locator('span:has-text('My Account')')",
+    apiName: 'locator.click',
+    params: {
+      selector: "page.locator('span:has-text('My Account')')",
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@34',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@34',
+      _title: "Click page.locator('span:has-text('My Account')')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1773603524597,
+    error: {
+      message: `Error: locator.click: Unexpected token "locator(" while parsing css selector "page.locator('span:has-text('My Account')')". Did you mean to CSS.escape it?\n` +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for page.locator('span:has-text('My Account')')\x1B[22m\n",
+      stack: `Error: locator.click: Unexpected token "locator(" while parsing css selector "page.locator('span:has-text('My Account')')". Did you mean to CSS.escape it?\n` +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for page.locator('span:has-text('My Account')')\x1B[22m\n" +
+        '\n' +
+        '    at HomePage.clickMyAccountLink (/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/HomePage.ts:26:32)\n' +
+        '    at /Users/eswarreddysangireddy/Documents/openCartAutomation/tests/registration.spec.ts:20:18',
+      cause: undefined
+    }
+  }
+}

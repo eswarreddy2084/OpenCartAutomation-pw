@@ -5,8 +5,9 @@
     "allure-playwright": "^3.6.0"
   },
   "scripts": {
-    "test:master":"playwright test --grep @master",
-    "LoginDataDriven":"playwright test --grep @dataDriven"
+    "Test:sanity": "playwright test --grep @sanity",
+    "Test:master": "playwright test --grep @master",
+    "LoginDataDriven": "playwright test --grep @dataDriven"
   },
   "dependencies": {
     "@faker-js/faker": "^10.3.0",

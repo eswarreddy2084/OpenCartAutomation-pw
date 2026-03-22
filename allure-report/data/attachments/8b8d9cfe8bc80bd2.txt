@@ -1,0 +1,54 @@
+error occured while loging in to application locator.click: Test ended.
+Call log:
+  - waiting for getByRole('button', { name: 'Login' })
+    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook" navigation to finish...
+    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook"
+
+    at LoginPage.Login (/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/LoginPage.ts:24:27) {
+  Symbol(step): {
+    location: {
+      file: '/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/LoginPage.ts',
+      line: 24,
+      column: 27,
+      function: 'LoginPage.Login'
+    },
+    category: 'pw:api',
+    title: "Click getByRole('button', { name: 'Login' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=button[name="Login"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@41',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@41',
+      _title: "Click getByRole('button', { name: 'Login' })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1774126278991,
+    error: {
+      message: 'Error: locator.click: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Login' })\x1B[22m\n" +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook"\x1B[22m\n',
+      stack: 'Error: locator.click: Test ended.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Login' })\x1B[22m\n" +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=MacBook"\x1B[22m\n' +
+        '\n' +
+        '    at LoginPage.Login (/Users/eswarreddysangireddy/Documents/openCartAutomation/pages/LoginPage.ts:24:27)',
+      cause: undefined
+    }
+  }
+}
